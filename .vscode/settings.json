@@ -21,7 +21,7 @@
     "terminal.ansiYellow": "#cdb57b",
     "terminal.selectionBackground": "#EEEEEE"
   },
-  "editor.fontFamily": "FiraCode Nerd Font",
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "editor.fontFamily": "FiraCode Nerd Font Mono",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
   "terminal.integrated.tabs.title": "${process}"
 }
