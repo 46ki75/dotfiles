@@ -1,0 +1,12 @@
+[user]
+    name = shirayuki
+    email = shirayuki@46ki75.com
+
+[init]
+    defaultBranch = main
+
+[commit]
+    gpgSign = true
+
+[core]
+    editor = vim
