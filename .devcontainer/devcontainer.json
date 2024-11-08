@@ -4,7 +4,11 @@
   "customizations": {
     "vscode": {
       "settings": {},
-      "extensions": []
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "GitHub.copilot-chat",
+        "tamasfe.even-better-toml"
+      ]
     }
   },
   "forwardPorts": []
