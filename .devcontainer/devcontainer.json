@@ -12,5 +12,5 @@
       ]
     }
   },
-  "forwardPorts": []
+  "hostRequirements": { "cpus": 2, "memory": "8gb" }
 }
