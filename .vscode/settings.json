@@ -20,5 +20,8 @@
     "terminal.ansiWhite": "#DBD7CA",
     "terminal.ansiYellow": "#cdb57b",
     "terminal.selectionBackground": "#EEEEEE"
-  }
+  },
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "terminal.integrated.tabs.title": "${process}"
 }
