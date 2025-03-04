@@ -1,6 +1,8 @@
 {
   "name": "Dev Container",
-  "build": { "dockerfile": "Dockerfile" },
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "customizations": {
     "vscode": {
       "settings": {},
@@ -12,5 +14,11 @@
       ]
     }
   },
-  "hostRequirements": { "cpus": 2, "memory": "8gb" }
+  "features": {
+    "ghcr.io/devcontainers-extra/features/starship": {}
+  },
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "8gb"
+  }
 }
