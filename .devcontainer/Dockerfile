@@ -1,8 +1,5 @@
-FROM amazonlinux:2023
+FROM mcr.microsoft.com/devcontainers/base:debian
 
-RUN dnf update -y && dnf install -y git tar vim && \
-    dnf groupinstall -y "Development Tools" && \
-    curl -sS https://starship.rs/install.sh | sh -s -- --yes
+USER vscode
 
-COPY .bashrc /root/.bashrc
-
+RUN echo 'eval "$(starship init bash)"' >> ~/.bashrc
