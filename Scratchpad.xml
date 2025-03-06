@@ -1,17 +1,38 @@
 <mxlibrary>[
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"endArrow=classic;rounded=0;strokeColor=#000000;opacity=70;fontSize=12;labelBackgroundColor=#F2F2F2;html=1;textShadow=0;labelBorderColor=none;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"160\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"160\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"endArrow=none;rounded=0;strokeColor=#4D4D4D;opacity=70;fontSize=14;labelBackgroundColor=default;html=1;textShadow=0;labelBorderColor=none;shadow=0;align=center;verticalAlign=middle;fontFamily=Noto Sans JP;fontColor=#4D4D4D;flowAnimation=0;startFillColor=#4D4D4D;endFillColor=#4D4D4D;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;startFill=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"160\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"160\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Line Base"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"PLACEHOLDER\" style=\"endArrow=classic;rounded=0;strokeColor=#4D4D4D;opacity=70;fontSize=14;labelBackgroundColor=default;html=1;textShadow=0;labelBorderColor=none;shadow=0;dashed=1;align=center;verticalAlign=middle;fontFamily=Noto Sans JP;fontColor=#4D4D4D;flowAnimation=0;startFillColor=#4D4D4D;endFillColor=#4D4D4D;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"160\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"160\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 160,
     "h": 160,
     "aspect": "fixed",
     "title": "Arrow"
   },
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#4D4D4D;labelBackgroundColor=#F2F2F2;strokeColor=#4D4D4D;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"0.0017\" width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"160\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"160\" as=\"targetPoint\"/&gt;&lt;mxPoint as=\"offset\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"PLACEHOLDER\" style=\"endArrow=classic;rounded=0;strokeColor=#4D4D4D;opacity=70;fontSize=14;labelBackgroundColor=default;html=1;textShadow=0;labelBorderColor=none;shadow=0;dashed=1;align=center;verticalAlign=middle;fontFamily=Noto Sans JP;fontColor=#4D4D4D;flowAnimation=0;startFillColor=#4D4D4D;endFillColor=#4D4D4D;startArrow=classic;startFill=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"160\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"160\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 160,
     "h": 160,
     "aspect": "fixed",
     "title": "Bidirectional Arrow"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;UserObject label=\"PLACEHOLDER\" tooltip=\"\" id=\"2\"&gt;&lt;mxCell style=\"endArrow=oval;dashed=1;html=1;rounded=0;strokeColor=#4D4D4D;flowAnimation=0;shadow=0;jumpStyle=none;endSize=10;startArrow=none;startFill=1;endFill=1;endFillColor=#4D4D4D;targetPerimeterSpacing=0;startSize=10;jumpSize=6;perimeterSpacing=0;fontSize=14;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;labelBackgroundColor=default;fontColor=#4D4D4D;startFillColor=#4D4D4D;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"160\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"160\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/UserObject&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Pointer"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;UserObject label=\"PLACEHOLDER\" tooltip=\"\" id=\"2\"&gt;&lt;mxCell style=\"endArrow=oval;dashed=1;html=1;rounded=0;strokeColor=#4D4D4D;flowAnimation=0;shadow=0;jumpStyle=none;endSize=10;startArrow=oval;startFill=1;endFill=1;endFillColor=#4D4D4D;targetPerimeterSpacing=0;startSize=10;jumpSize=6;perimeterSpacing=0;fontSize=14;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;labelBackgroundColor=default;fontColor=#4D4D4D;startFillColor=#4D4D4D;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"160\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"160\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/UserObject&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Bidirectional Pojnter"
   },
   {
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=1;whiteSpace=wrap;html=1;strokeColor=none;shadow=1;shadowColor=#000000;shadowOpacity=50;shadowOffsetX=0;shadowOffsetY=0;shadowBlur=2;arcSize=8;fillColor=#FFFFFF;glass=0;fillOpacity=95;spacing=8;fontColor=#4D4D4D;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"-1.1368683772161603e-13\" width=\"160\" height=\"160\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
