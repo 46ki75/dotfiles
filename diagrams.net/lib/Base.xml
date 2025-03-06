@@ -1,0 +1,65 @@
+<mxlibrary>[
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"PLACEHOLDER\" style=\"text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;fontColor=#4D4D4D;fontSize=14;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"120\" height=\"30\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 120,
+    "h": 30,
+    "aspect": "fixed",
+    "title": "Text"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"endArrow=none;rounded=0;strokeColor=#4D4D4D;opacity=70;fontSize=14;labelBackgroundColor=default;html=1;textShadow=0;labelBorderColor=none;shadow=0;align=center;verticalAlign=middle;fontFamily=Noto Sans JP;fontColor=#4D4D4D;flowAnimation=0;startFillColor=#4D4D4D;endFillColor=#4D4D4D;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;startFill=1;autosize=1;resizable=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"160\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"160\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Line"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"PLACEHOLDER\" style=\"endArrow=classic;rounded=0;strokeColor=#4D4D4D;opacity=70;fontSize=14;labelBackgroundColor=default;html=1;textShadow=0;labelBorderColor=none;shadow=0;dashed=1;align=center;verticalAlign=middle;fontFamily=Noto Sans JP;fontColor=#4D4D4D;flowAnimation=0;startFillColor=#4D4D4D;endFillColor=#4D4D4D;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;autosize=1;resizable=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"160\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"160\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Arrow"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"PLACEHOLDER\" style=\"endArrow=classic;rounded=0;strokeColor=#4D4D4D;opacity=70;fontSize=14;labelBackgroundColor=default;html=1;textShadow=0;labelBorderColor=none;shadow=0;dashed=1;align=center;verticalAlign=middle;fontFamily=Noto Sans JP;fontColor=#4D4D4D;flowAnimation=0;startFillColor=#4D4D4D;endFillColor=#4D4D4D;startArrow=classic;startFill=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;autosize=1;resizable=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"160\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"160\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Bidirectional Arrow"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;UserObject label=\"PLACEHOLDER\" tooltip=\"\" id=\"2\"&gt;&lt;mxCell style=\"endArrow=oval;dashed=1;html=1;rounded=0;strokeColor=#4D4D4D;flowAnimation=0;shadow=0;jumpStyle=none;endSize=10;startArrow=none;startFill=1;endFill=1;endFillColor=#4D4D4D;targetPerimeterSpacing=0;startSize=10;jumpSize=6;perimeterSpacing=0;fontSize=14;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;labelBackgroundColor=default;fontColor=#4D4D4D;startFillColor=#4D4D4D;autosize=1;resizable=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"160\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"160\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/UserObject&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Pointer"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;UserObject label=\"PLACEHOLDER\" tooltip=\"\" id=\"2\"&gt;&lt;mxCell style=\"endArrow=oval;dashed=1;html=1;rounded=0;strokeColor=#4D4D4D;flowAnimation=0;shadow=0;jumpStyle=none;endSize=10;startArrow=oval;startFill=1;endFill=1;endFillColor=#4D4D4D;targetPerimeterSpacing=0;startSize=10;jumpSize=6;perimeterSpacing=0;fontSize=14;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;labelBackgroundColor=default;fontColor=#4D4D4D;startFillColor=#4D4D4D;autosize=1;resizable=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"160\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"160\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/UserObject&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Bidirectional Pointer"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=1;whiteSpace=wrap;html=1;strokeColor=none;shadow=1;shadowColor=#000000;shadowOpacity=50;shadowOffsetX=0;shadowOffsetY=0;shadowBlur=2;arcSize=8;fillColor=#FFFFFF;glass=0;fillOpacity=95;spacing=8;fontColor=#4D4D4D;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;align=center;verticalAlign=middle;fontSize=14;autosize=1;resizable=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"160\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Rectangle"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;strokeColor=#868E9C;fillColor=#868E9C;glass=0;fillOpacity=10;fontSize=24;fontColor=#6C7483;align=center;verticalAlign=middle;autosize=1;resizable=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"160\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Area"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"Generic group\" style=\"fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"160\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Group"
+  }
+]</mxlibrary>
