@@ -14,7 +14,7 @@
     "title": "Bidirectional Arrow"
   },
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=1;whiteSpace=wrap;html=1;strokeColor=none;shadow=1;shadowColor=#000000;shadowOpacity=50;shadowOffsetX=0;shadowOffsetY=0;shadowBlur=2;arcSize=8;fillColor=#FFFFFF;glass=0;fillOpacity=95;spacing=8;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"-1.1368683772161603e-13\" width=\"160\" height=\"160\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=1;whiteSpace=wrap;html=1;strokeColor=none;shadow=1;shadowColor=#000000;shadowOpacity=50;shadowOffsetX=0;shadowOffsetY=0;shadowBlur=2;arcSize=8;fillColor=#FFFFFF;glass=0;fillOpacity=95;spacing=8;fontColor=#4D4D4D;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"-1.1368683772161603e-13\" width=\"160\" height=\"160\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 160,
     "h": 160,
     "aspect": "fixed",
@@ -26,5 +26,68 @@
     "h": 160,
     "aspect": "fixed",
     "title": "Group"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;strokeColor=#A17C5B;fillColor=#A17C5B;glass=0;fillOpacity=10;fontSize=24;fontColor=#806349;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"160\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Brown Area"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;strokeColor=#C56565;fillColor=#C56565;glass=0;fillOpacity=10;fontSize=24;fontColor=#B34444;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"160\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Crimson Area"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;strokeColor=#D48B70;fillColor=#D48B70;glass=0;fillOpacity=10;fontSize=24;fontColor=#C86B49;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"160\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Amber Area"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;strokeColor=#CDB57B;fillColor=#CDB57B;glass=0;fillOpacity=10;fontSize=24;fontColor=#BFA056;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"160\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Gold Area"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;strokeColor=#59B57C;fillColor=#59B57C;glass=0;fillOpacity=10;fontSize=24;fontColor=#449763;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"160\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Emerald Area"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;strokeColor=#6987B8;fillColor=#6987B8;glass=0;fillOpacity=10;fontSize=24;fontColor=#4C6DA2;labelBackgroundColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"160\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Blue Area"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;strokeColor=#9771BD;fillColor=#9771BD;glass=0;fillOpacity=10;fontSize=24;fontColor=#7E50AB;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"160\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Purple Area"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;strokeColor=#C9699E;fillColor=#C9699E;glass=0;fillOpacity=10;fontSize=24;fontColor=#BB4486;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"160\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Pink Area"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans JP;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BJP;strokeColor=#868E9C;fillColor=#868E9C;glass=0;fillOpacity=10;fontSize=24;fontColor=#6C7483;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"160\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Slate Area"
   }
 ]</mxlibrary>
