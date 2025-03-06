@@ -1,0 +1,104 @@
+{
+    "__README": [
+        "Customise default colours, fonts, styles for draw.io.",
+        "See https://www.diagrams.net/doc/faq/configure-diagram-editor"
+    ],
+    "customColorSchemes": [
+        [
+            {
+                "fill": "#c56565",
+                "stroke": "none"
+            },
+            {
+                "fill": "#d48b70",
+                "stroke": "none"
+            },
+            {
+                "fill": "#cdb57b",
+                "stroke": "none"
+            },
+            {
+                "fill": "#59b57c",
+                "stroke": "none"
+            },
+            {
+                "fill": "#6987b8",
+                "stroke": "none"
+            },
+            {
+                "fill": "#9771bd",
+                "stroke": "none"
+            },
+            {
+                "fill": "#c9699e",
+                "stroke": "none"
+            },
+            {
+                "fill": "#868e9c",
+                "stroke": "none"
+            },
+            {
+                "fill": "#c56565",
+                "stroke": "#c56565"
+            },
+            {
+                "fill": "#d48b70",
+                "stroke": "#d48b70"
+            },
+            {
+                "fill": "#cdb57b",
+                "stroke": "#cdb57b"
+            },
+            {
+                "fill": "#59b57c",
+                "stroke": "#59b57c"
+            },
+            {
+                "fill": "#6987b8",
+                "stroke": "#6987b8"
+            },
+            {
+                "fill": "#9771bd",
+                "stroke": "#9771bd"
+            },
+            {
+                "fill": "#c9699e",
+                "stroke": "#c9699e"
+            },
+            {
+                "fill": "#868e9c",
+                "stroke": "#868e9c"
+            }
+        ]
+    ],
+    "__HELP(presetColors)": "one row: 12 colors; 2 rows prefered.",
+    "presetColors": [
+        "e1afaf",
+        "c56565",
+        "8e3636",
+        "eccbbe",
+        "d48b70",
+        "ab5433",
+        "e9dec5",
+        "cdb57b",
+        "a4863e",
+        "a0d4b4",
+        "59b57c",
+        "34744c",
+        "aebed9",
+        "6987b8",
+        "3c557f",
+        "cab7dd",
+        "9771bd",
+        "643f89",
+        "e4b4ce",
+        "c9699e",
+        "96366b",
+        "333",
+        "4d4d4d",
+        "f2f2f2"
+    ],
+    "defaultFonts": [
+        "Noto Sans JP"
+    ]
+}
