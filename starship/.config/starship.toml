@@ -15,9 +15,9 @@ display = [
     { threshold = 60, style = "yellow" },
     { threshold = 80, style = "red" },
 ]
-gauge_full_symbol = "■"
-gauge_partial_symbol = ""
-gauge_empty_symbol = "□"
+gauge_full_symbol = "█"
+gauge_partial_symbol = "▓"
+gauge_empty_symbol = "░"
 gauge_width = 10
 format = "[$percentage $gauge]($style) [↑]($style bold) [$input_tokens]($style) [↓]($style bold) [$output_tokens]($style)"
 
