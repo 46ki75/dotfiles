@@ -1,8 +1,17 @@
 # https://starship.rs/config/#prompt
 
-# [directory]
-# format = '[ $path ]($style)[$read_only]($read_only_style) '
-# style = "bold bg:blue"
+[directory]
+style = "bold yellow"
+
+[character]
+success_symbol = "[❯](bold dimmed yellow)"
+error_symbol = "[❯](bold red)"
+
+[git_branch]
+style = "bold #805f45"
+
+[git_status]
+style = "bold #805f45"
 
 # https://starship.rs/advanced-config/#statusline-for-claude-code
 [profiles]
