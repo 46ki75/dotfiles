@@ -21,8 +21,8 @@ claude-code = "$directory$git_branch $claude_model $claude_context $claude_cost"
 # format = "[$percentage (↑$input_tokens ↓$output_tokens)]($style) "
 display = [
     { threshold = 0, style = "green" },
-    { threshold = 60, style = "yellow" },
-    { threshold = 80, style = "red" },
+    { threshold = 25, style = "yellow" },
+    { threshold = 50, style = "red" },
 ]
 gauge_full_symbol = "█"
 gauge_partial_symbol = "▓"
