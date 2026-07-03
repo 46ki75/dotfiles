@@ -15,7 +15,7 @@ style = "bold #805f45"
 
 # https://starship.rs/advanced-config/#statusline-for-claude-code
 [profiles]
-claude-code = "$directory$git_branch $claude_model $claude_context $claude_cost"
+claude-code = "$directory$git_branch\n$claude_model $claude_context $claude_cost"
 
 [claude_context]
 # format = "[$percentage (↑$input_tokens ↓$output_tokens)]($style) "
@@ -29,6 +29,10 @@ gauge_partial_symbol = "▓"
 gauge_empty_symbol = "░"
 gauge_width = 10
 format = "[$percentage $gauge]($style) [↑]($style bold) [$input_tokens]($style) [↓]($style bold) [$output_tokens]($style)"
+
+[claude_model]
+format = "[$model]($style) "
+style = "bold blue"
 
 [claude_cost]
 display = [{ style = "yellow" }]
