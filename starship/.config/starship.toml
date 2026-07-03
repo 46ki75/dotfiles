@@ -33,4 +33,4 @@ format = "[$percentage $gauge]($style) [↑]($style bold) [$input_tokens]($style
 [claude_cost]
 display = [{ style = "yellow" }]
 format = "[$symbol]($style bold) [$cost]($style)"
-symbol = "\\$ "
+symbol = "\\$"
