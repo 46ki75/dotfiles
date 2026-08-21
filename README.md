@@ -34,3 +34,16 @@ stow starship
 # Apply all packages at once
 stow */
 ```
+
+### 4. Claude Code status line
+
+The `claude-code` profile in `starship.toml` renders Claude Code's status line, but Claude Code won't use it until it's told to. After stowing `starship`, add the following to `~/.claude/settings.json`:
+
+```json
+{
+  "statusLine": {
+    "type": "command",
+    "command": "starship statusline claude-code"
+  }
+}
+```
