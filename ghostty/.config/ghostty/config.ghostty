@@ -1,8 +1,11 @@
 # Quake-style drop-down terminal
 keybind = global:option+backquote=toggle_quick_terminal
 
+# Maximize the current window
+keybind = super+enter=toggle_maximize
+
 quick-terminal-position = top
-quick-terminal-size = 40%
+quick-terminal-size = 50%
 quick-terminal-autohide = true
 
 theme = Ikuma Dark
