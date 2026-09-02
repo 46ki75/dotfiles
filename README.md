@@ -29,11 +29,13 @@ dotfiles/
 cd ~/dotfiles
 
 # Apply a single package
-stow starship
+stow --no-folding starship
 
 # Apply all packages at once
-stow */
+stow --no-folding */
 ```
+
+`--no-folding` keeps application-managed files out of this repository by linking individual dotfiles instead of entire directories.
 
 ### 4. Claude Code status line
 

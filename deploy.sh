@@ -4,4 +4,4 @@ set -euo pipefail
 
 git pull > /dev/null
 
-stow */
+stow --no-folding */
