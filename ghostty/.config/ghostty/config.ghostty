@@ -4,6 +4,9 @@ keybind = global:option+backquote=toggle_quick_terminal
 # Maximize the current window
 keybind = super+enter=toggle_maximize
 
+background-opacity = 0.85
+background-blur = macos-glass-regular
+
 quick-terminal-position = right
 quick-terminal-size = 35%
 quick-terminal-autohide = true
