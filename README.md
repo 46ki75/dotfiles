@@ -39,7 +39,7 @@ stow --no-folding */
 
 ### 4. Claude Code status line
 
-The `claude-code` profile in `starship.toml` renders Claude Code's status line, but Claude Code won't use it until it's told to. After stowing `starship`, add the following to `~/.claude/settings.json`:
+The `claude-code` profile in `starship.toml` renders Claude Code's status line, but Claude Code won't use it until it's told to. After stowing `starship`, merge the following into `~/.claude/settings.json` while preserving any existing settings:
 
 ```json
 {
@@ -49,3 +49,5 @@ The `claude-code` profile in `starship.toml` renders Claude Code's status line, 
   }
 }
 ```
+
+Restart Claude Code to enable the status line. If Claude Code cannot find `starship`, replace `starship` in the command with the absolute path reported by `command -v starship`.
