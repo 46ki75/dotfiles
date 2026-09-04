@@ -8,7 +8,7 @@ background-opacity = 0.85
 background-blur = macos-glass-regular
 
 quick-terminal-position = right
-quick-terminal-size = 35%
+quick-terminal-size = 40%
 quick-terminal-autohide = true
 
 theme = Ikuma Dark
