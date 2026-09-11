@@ -7,6 +7,9 @@ keybind = super+enter=toggle_maximize
 background-opacity = 0.85
 background-blur = macos-glass-regular
 
+font-family = DM Mono
+font-family = Zen Kaku Gothic New
+
 quick-terminal-position = right
 quick-terminal-size = 50%
 quick-terminal-autohide = true
