@@ -15,3 +15,5 @@ quick-terminal-size = 50%
 quick-terminal-autohide = true
 
 theme = Ikuma Dark
+
+macos-option-as-alt = true
