@@ -3,3 +3,6 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("i", "jkl", "<Esc>", { desc = "Exit insert mode" })
+
+vim.keymap.set({ "n", "x", "o" }, "H", "^", { desc = "First non-blank character" })
+vim.keymap.set({ "n", "x", "o" }, "L", "$", { desc = "End of line" })
