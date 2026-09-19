@@ -65,3 +65,20 @@ If `~/.config/nvim` already contains regular configuration files, back them up a
 - Keep `lazyvim.json` (enabled extras) and `lazy-lock.json` (plugin versions) in version control. Review their changes after using `:LazyExtras` or updating plugins with `:Lazy update`; use `:Lazy restore` to restore the versions in the lockfile.
 - Create new configuration files in `nvim/.config/nvim/`, then rerun `./deploy.sh` to link them. Existing symlinked files can be edited through `~/.config/nvim/`.
 - Plugin installations, caches, and editor state live outside this repository.
+
+### 6. Pi themes
+
+`pi/.pi/agent/themes/ikuma-dark.json` and `ikuma-light.json` adapt the palette and syntax tokens from `~/org/46ki75/elmethis/packages/ikuma-theme/scripts/colors.ts`. They are standalone snapshots, not automatically synchronized with Elmethis.
+
+From the repository root, deploy only the Pi package without pulling Git changes:
+
+```bash
+stow --no-folding pi
+```
+
+Run `/reload` in Pi, then select `ikuma-dark` or `ikuma-light` through `/settings`. To preview without changing the saved theme, start Pi with `pi --use-theme ikuma-dark`. For automatic switching on compatible terminals, set `"theme": "ikuma-light/ikuma-dark"` in `~/.pi/agent/settings.json`, preserving its other settings.
+
+- Match the terminal's background to the selected variant; Pi themes do not set the terminal-wide background, font, or opacity.
+- Alpha colors are composited in sRGB against each variant's base background, matching Elmethis's Neovim exporter. This includes the light syntax-type color (`#ad592f96` → `#c8967c`), search (`primary` at `0x44` opacity), custom messages (`primary`, `0x10`), tool success/error panels (`green`/`red`, `0x30`), and HTML info panels (`primary`, `0x22`).
+- Warning colors follow Elmethis's OpenCode mapping; higher thinking levels use its blue, purple, and magenta ANSI accents, with the maximum level using the active foreground.
+- Run `/reload` after editing a symlinked theme if the change does not appear automatically.
