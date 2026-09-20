@@ -8,6 +8,7 @@ background-opacity = 0.85
 background-blur = macos-glass-regular
 
 font-family = DM Mono
+font-family = Symbols Nerd Font Mono
 font-family = Zen Kaku Gothic New
 
 quick-terminal-position = right
