@@ -2,6 +2,9 @@ return {
   {
     "folke/snacks.nvim",
     opts = {
+      image = {
+        enabled = not vim.g.neovide,
+      },
       picker = {
         sources = {
           explorer = { hidden = true, ignored = true },
