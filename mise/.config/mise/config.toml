@@ -1,0 +1,5 @@
+[tools]
+node = "24.20.0"
+"npm:@earendil-works/pi-coding-agent" = "0.85.1"
+pnpm = "12.4.1"
+uv = "0.12.9"
