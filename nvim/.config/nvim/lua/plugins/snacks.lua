@@ -7,9 +7,9 @@ return {
       },
       picker = {
         sources = {
-          explorer = { hidden = true, ignored = true },
-          files = { hidden = true, ignored = true },
-          grep = { hidden = true, ignored = true },
+          explorer = { hidden = false, ignored = false },
+          files = { hidden = false, ignored = false },
+          grep = { hidden = false, ignored = false },
         },
       },
     },

@@ -6,6 +6,7 @@ vim.opt.timeoutlen = 500
 vim.opt.background = "dark"
 
 if vim.g.neovide then
+  vim.g.neovide_input_macos_option_key_is_meta = "both"
   vim.opt.title = true
   vim.opt.titlestring = "%{fnamemodify(getcwd(), ':~')}"
 
