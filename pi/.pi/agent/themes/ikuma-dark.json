@@ -25,8 +25,8 @@
     "magenta": "#b17396",
     "searchBackground": "#585855",
     "customBackground": "#404449",
-    "successBackground": "#344039",
-    "errorBackground": "#694b4b",
+    "successBackground": "#15281d",
+    "errorBackground": "#291313",
     "infoBackground": "#242d3e"
   },
   "colors": {
