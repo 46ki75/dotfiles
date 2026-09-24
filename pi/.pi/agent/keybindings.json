@@ -12,11 +12,9 @@
     "ctrl+u"
   ],
   "tui.select.confirm": [
-    "enter",
-    "l"
+    "enter"
   ],
   "tui.select.cancel": [
-    "escape",
-    "h"
+    "escape"
   ]
 }
