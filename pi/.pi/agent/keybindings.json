@@ -1,6 +1,22 @@
 {
-  "tui.select.down": ["down", "j"],
-  "tui.select.up": ["up", "k"],
-  "tui.select.confirm": ["enter", "l"],
-  "tui.select.cancel": ["escape", "h"]
+  "tui.select.down": [
+    "j"
+  ],
+  "tui.select.up": [
+    "k"
+  ],
+  "tui.select.pageDown": [
+    "ctrl+d"
+  ],
+  "tui.select.pageUp": [
+    "ctrl+u"
+  ],
+  "tui.select.confirm": [
+    "enter",
+    "l"
+  ],
+  "tui.select.cancel": [
+    "escape",
+    "h"
+  ]
 }
