@@ -48,7 +48,7 @@
     "elmethisColorDisplayMagentaSurface": "#3c1f2f"
   },
   "colors": {
-    "accent": "elmethisColorPrimary",
+    "accent": "elmethisColorPrimaryStrong",
     "text": "elmethisColorNeutralStrong",
     "muted": "elmethisColorNeutral",
     "dim": "elmethisColorNeutralWeak",
