@@ -9,6 +9,9 @@ Personal configuration files managed with [GNU Stow](https://www.gnu.org/softwar
 ```bash
 # Debian / Ubuntu / WSL
 sudo apt install stow
+
+# Termux
+pkg install stow
 ```
 
 ### 2. Repository structure
@@ -82,3 +85,18 @@ Run `/reload` in Pi, then select `ikuma-dark` or `ikuma-light` through `/setting
 - Alpha colors are composited in sRGB against each variant's base background, matching Elmethis's Neovim exporter. This includes the light syntax-type color (`#ad592f96` → `#c8967c`), search (`primary` at `0x44` opacity), custom messages (`primary`, `0x10`), tool success/error panels (`green`/`red`, `0x30`), and HTML info panels (`primary`, `0x22`).
 - Warning colors follow Elmethis's OpenCode mapping; higher thinking levels use its blue, purple, and magenta ANSI accents, with the maximum level using the active foreground.
 - Run `/reload` after editing a symlinked theme if the change does not appear automatically.
+
+### 7. Termux theme
+
+`termux/.termux/colors.properties` adapts **Ikuma Dark** from `~/org/46ki75/elmethis/packages/ikuma-theme/scripts/colors.ts` and the terminal mappings in `helper.ts`. It is a standalone snapshot, not automatically synchronized with Elmethis. Its background, foreground, cursor, and 16 ANSI colors match the Ghostty Ikuma Dark theme in this repository.
+
+From the repository root, deploy only the Termux package without pulling Git changes:
+
+```bash
+stow --no-folding termux
+termux-reload-settings
+```
+
+If `~/.termux/colors.properties` already exists as a regular file or an unrelated symlink, back it up and move it out of the way before stowing. The package leaves `~/.termux/font.ttf` and other Termux settings untouched.
+
+Termux loads the palette from [`~/.termux/colors.properties`](https://wiki.termux.com/wiki/Termux:Styling). After editing the symlinked file, run `termux-reload-settings` again. Indexed colors 16–255 and explicit true-color output are unchanged; application themes may need separate configuration.
