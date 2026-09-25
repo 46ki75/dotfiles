@@ -71,20 +71,17 @@ If `~/.config/nvim` already contains regular configuration files, back them up a
 
 ### 6. Pi themes
 
-`pi/.pi/agent/themes/ikuma-dark.json` and `ikuma-light.json` adapt the palette and syntax tokens from `~/org/46ki75/elmethis/packages/ikuma-theme/scripts/colors.ts`. They are standalone snapshots, not automatically synchronized with Elmethis.
-
-From the repository root, deploy only the Pi package without pulling Git changes:
+Pi themes are provided by [`@ikuma.cloud/pix-theme-elmethis`](https://github.com/46ki75/pix/tree/main/packages/pix-theme-elmethis), not managed by Stow:
 
 ```bash
-stow --no-folding pi
+pi install npm:@ikuma.cloud/pix-theme-elmethis
 ```
 
-Run `/reload` in Pi, then select `ikuma-dark` or `ikuma-light` through `/settings`. To preview without changing the saved theme, start Pi with `pi --use-theme ikuma-dark`. For automatic switching on compatible terminals, set `"theme": "ikuma-light/ikuma-dark"` in `~/.pi/agent/settings.json`, preserving its other settings.
+Run `/reload` in Pi, then select `elmethis-dark` or `elmethis-light` through `/settings`. To preview without changing the saved theme, start Pi with `pi --use-theme elmethis-dark`. For automatic switching on compatible terminals, set `"theme": "elmethis-light/elmethis-dark"` in `~/.pi/agent/settings.json`, preserving its other settings.
 
-- Match the terminal's background to the selected variant; Pi themes do not set the terminal-wide background, font, or opacity.
-- Alpha colors are composited in sRGB against each variant's base background, matching Elmethis's Neovim exporter. This includes the light syntax-type color (`#ad592f96` → `#c8967c`), search (`primary` at `0x44` opacity), custom messages (`primary`, `0x10`), tool success/error panels (`green`/`red`, `0x30`), and HTML info panels (`primary`, `0x22`).
-- Warning colors follow Elmethis's OpenCode mapping; higher thinking levels use its blue, purple, and magenta ANSI accents, with the maximum level using the active foreground.
-- Run `/reload` after editing a symlinked theme if the change does not appear automatically.
+When migrating an existing deployment, remove the obsolete `ikuma-dark.json` and `ikuma-light.json` symlinks from `~/.pi/agent/themes/`.
+
+Match the terminal's background to the selected variant; Pi themes do not set the terminal-wide background, font, or opacity.
 
 ### 7. Termux theme
 
