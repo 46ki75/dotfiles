@@ -77,7 +77,7 @@
     "mdHeading": "elmethisColorPrimaryStrong",
     "mdLink": "elmethisColorAccentLink",
     "mdLinkUrl": "elmethisColorNeutral",
-    "mdCode": "elmethisColorDisplayGreen",
+    "mdCode": "elmethisColorDisplayCyan",
     "mdCodeBlock": "elmethisColorNeutralStrong",
     "mdCodeBlockBorder": "elmethisColorNeutralWeak",
     "mdQuote": "elmethisColorNeutralWeak",
