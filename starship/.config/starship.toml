@@ -34,6 +34,9 @@ symbol = " "
 [git_status]
 style = "dimmed bright-green"
 
+[cmd_duration]
+format = "󰔛 [$duration]($style) "
+
 [package]
 format = "[$symbol$version]($style)\n"
 style = "dimmed bright-yellow"
