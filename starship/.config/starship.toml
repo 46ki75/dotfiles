@@ -1,12 +1,17 @@
 # https://starship.rs/config/#prompt
 
+format = "$hostname$username$all"
+
 [username]
-disabled = true
+show_always = true
+format = "[ 󰌾 $user ]($style)[](bright-black) "
+style_user = "fg:white bg:bright-black"
+style_root = "fg:white bg:bright-black"
 
 [hostname]
 ssh_only = false
-format = "[](white)[  $hostname ]($style)[](white) "
-style = "fg:black bg:white"
+format = "[](white)[  $hostname ]($style)[](fg:white bg:bright-black)"
+style = "fg:bright-black bg:white"
 
 [directory]
 style = "bold dimmed"
