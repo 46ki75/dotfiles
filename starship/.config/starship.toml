@@ -1,10 +1,11 @@
 # https://starship.rs/config/#prompt
 
-format = "$hostname${env_var.USER}$all"
+format = "$hostname${custom.username}$all"
 
-[env_var.USER]
-default = "unknown"
-format = "[ 󰌾 $env_value ]($style)[](bright-black) "
+[custom.username]
+command = "whoami 2>/dev/null || printf unknown"
+when = true
+format = "[ 󰌾 $output ]($style)[](bright-black) "
 style = "fg:white bg:bright-black"
 
 [hostname]
