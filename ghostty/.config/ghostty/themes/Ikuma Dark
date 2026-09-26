@@ -1,53 +1,65 @@
-# 0: Black
+# 0: Black: --elmethis-primitive-color-slate-900
 palette = 0=#242629
 
-# 1: Red
-palette = 1=#c56565
+# 1: Red: --elmethis-primitive-color-red-500
+palette = 1=#ae6e6e
 
-# 2: Green
-palette = 2=#59b57c
+# 2: Green: --elmethis-primitive-color-green-500
+palette = 2=#659878
 
-# 3: Yellow
-palette = 3=#cdb57b
+# 3: Yellow: --elmethis-primitive-color-yellow-500
+palette = 3=#b09a66
 
-# 4: Blue
-palette = 4=#6987b8
+# 4: Blue: --elmethis-primitive-color-blue-500
+palette = 4=#68779f
 
-# 5: Magenta
-palette = 5=#c9699e
+# 5: Magenta: --elmethis-primitive-color-magenta-500
+palette = 5=#b17396
 
-# 6: Cyan
-palette = 6=#5fb5a8
+# 6: Cyan: --elmethis-primitive-color-cyan-500
+palette = 6=#6091a0
 
-# 7: White
+# 7: White: --elmethis-primitive-color-slate-200
 palette = 7=#b0b5be
 
-# 8: Bright black
-palette = 8=#6c7079
+# 8: Bright black: --elmethis-primitive-color-slate-500
+palette = 8=#555b67
 
-# 9: Bright red
-palette = 9=#d48b70
+# 9: Bright red: --elmethis-primitive-color-red-300
+palette = 9=#cda5a4
 
-# 10: Bright green
-palette = 10=#82ba92
+# 10: Bright green: --elmethis-primitive-color-green-300
+palette = 10=#a1c0ac
 
-# 11: Bright yellow
-palette = 11=#e0cb96
+# 11: Bright yellow: --elmethis-primitive-color-yellow-300
+palette = 11=#cdc0a0
 
-# 12: Bright blue
-palette = 12=#8aa6d0
+# 12: Bright blue: --elmethis-primitive-color-blue-300
+palette = 12=#a1abc4
 
-# 13: Bright magenta
-palette = 13=#9771bd
+# 13: Bright magenta: --elmethis-primitive-color-magenta-300
+palette = 13=#cea7bc
 
-# 14: Bright cyan
-palette = 14=#82d6cd
+# 14: Bright cyan: --elmethis-primitive-color-cyan-300
+palette = 14=#9ebcc3
 
-# 15: Bright white
-palette = 15=#cccfd5
+# 15: Bright white: --elmethis-primitive-color-slate-100
+palette = 15=#d7d9e1
+
+# --elmethis-color-surface-base (dark)
 background = #393e46
+
+# --elmethis-color-neutral (dark)
 foreground = #b0b5be
-cursor-color = #ece4d4
+
+# --elmethis-color-primary (dark)
+cursor-color = #c6b5a2
+
+# --elmethis-color-surface-base (dark)
 cursor-text = #393e46
-selection-background = #ad9f7d
+
+# --elmethis-color-neutral (dark)
+selection-background = #b0b5be
+
+# --elmethis-color-surface-base (dark)
 selection-foreground = #393e46
