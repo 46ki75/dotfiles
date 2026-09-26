@@ -21,6 +21,31 @@ symbol = " "
 [git_status]
 style = "dimmed bright-green"
 
+[package]
+format = "[$symbol$version]($style)\n"
+style = "dimmed bright-yellow"
+symbol = " "
+
+[nodejs]
+format = "[$symbol](green)[$version]($style) "
+style = "dimmed bright-green"
+symbol = " "
+
+[python]
+format = '[$symbol](yellow)[${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+style = "dimmed bright-yellow"
+symbol = " "
+
+[rust]
+format = "[$symbol](red)[$version]($style) "
+style = "dimmed bright-red"
+symbol = " "
+
+[aws]
+format = '[$symbol](yellow)[($profile )(\($region\) )(\[$duration\] )]($style)'
+style = "dimmed bright-yellow"
+symbol = " "
+
 # https://starship.rs/advanced-config/#statusline-for-claude-code
 [profiles]
 claude-code = "$directory$git_branch\n$claude_model $claude_context $claude_cost"
