@@ -1,5 +1,11 @@
 # https://starship.rs/config/#prompt
 
+[username]
+disabled = true
+
+[hostname]
+disabled = true
+
 [directory]
 style = "bold dimmed"
 format = "[ $path]($style)[$read_only]($read_only_style) "
