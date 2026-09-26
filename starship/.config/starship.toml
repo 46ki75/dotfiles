@@ -35,7 +35,7 @@ symbol = " "
 style = "dimmed bright-green"
 
 [cmd_duration]
-format = "󰔛 [$duration]($style) "
+format = "[󰔛 $duration]($style) "
 
 [package]
 format = "[$symbol$version]($style)\n"
