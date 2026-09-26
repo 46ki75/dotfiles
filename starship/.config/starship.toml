@@ -4,7 +4,9 @@
 disabled = true
 
 [hostname]
-disabled = true
+ssh_only = false
+format = "[](white)[  $hostname ]($style)[](white) "
+style = "fg:black bg:white"
 
 [directory]
 style = "bold dimmed"
