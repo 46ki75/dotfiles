@@ -1,6 +1,6 @@
 # https://starship.rs/config/#prompt
 
-format = "$hostname${custom.username}$all"
+format = "$hostname${custom.username}$directory$git_branch$git_status$cmd_duration\n$package$all"
 
 [custom.username]
 command = "whoami 2>/dev/null || printf unknown"
@@ -38,7 +38,7 @@ style = "dimmed bright-green"
 format = "[󰔛 $duration]($style) "
 
 [package]
-format = "[$symbol$version]($style)\n"
+format = "[$symbol$version]($style) "
 style = "dimmed bright-yellow"
 symbol = " "
 
