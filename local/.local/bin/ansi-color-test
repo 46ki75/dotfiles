@@ -1,0 +1,93 @@
+#!/bin/sh
+
+# Display traditional ANSI colors and test terminal-specific UI colors.
+reset=$(printf '\033[0m')
+trap 'printf "\033[0m"' 0
+
+printf 'Traditional ANSI colors (8 standard + 8 bright)\n\n'
+printf '%-15s  %-16s  %-16s  %-12s  %s\n' 'Color' 'Foreground' 'Faint (SGR 2)' 'Background' 'Codes'
+
+i=0
+for name in Black Red Green Yellow Blue Magenta Cyan White; do
+    fg=$((30 + i))
+    bg=$((40 + i))
+    printf '%-15s  \033[%dm%-16s%s  \033[2;%dm%-16s%s  \033[%dm            %s  FG %d / BG %d\n' \
+        "$name" "$fg" 'Sample text' "$reset" "$fg" 'Faint text' "$reset" \
+        "$bg" "$reset" "$fg" "$bg"
+    i=$((i + 1))
+done
+
+i=0
+for name in Black Red Green Yellow Blue Magenta Cyan White; do
+    fg=$((90 + i))
+    bg=$((100 + i))
+    label="Bright $name"
+    printf '%-15s  \033[%dm%-16s%s  \033[2;%dm%-16s%s  \033[%dm            %s  FG %d / BG %d\n' \
+        "$label" "$fg" 'Sample text' "$reset" "$fg" 'Faint text' "$reset" \
+        "$bg" "$reset" "$fg" "$bg"
+    i=$((i + 1))
+done
+
+print_indexed_sample() {
+    color=$1
+    printf '\033[38;5;%dm%3d%s \033[48;5;%dm  %s ' \
+        "$color" "$color" "$reset" "$color" "$reset"
+}
+
+printf '\n256-color indexed palette\n'
+printf 'Each sample shows a colored index followed by a background swatch.\n\n'
+
+printf 'Indexed base colors (0-15)\n  '
+i=0
+while [ "$i" -lt 16 ]; do
+    print_indexed_sample "$i"
+    i=$((i + 1))
+    if [ $((i % 8)) -eq 0 ] && [ "$i" -lt 16 ]; then
+        printf '\n  '
+    fi
+done
+printf '\n\n'
+
+printf '6 x 6 x 6 color cube (16-231; each row varies blue)\n'
+r=0
+while [ "$r" -lt 6 ]; do
+    printf '  Red level %d\n' "$r"
+    g=0
+    while [ "$g" -lt 6 ]; do
+        printf '    Green %d  ' "$g"
+        b=0
+        while [ "$b" -lt 6 ]; do
+            index=$((16 + 36 * r + 6 * g + b))
+            print_indexed_sample "$index"
+            b=$((b + 1))
+        done
+        printf '\n'
+        g=$((g + 1))
+    done
+    r=$((r + 1))
+done
+
+printf '\nGrayscale ramp (232-255)\n  '
+i=232
+while [ "$i" -lt 256 ]; do
+    print_indexed_sample "$i"
+    i=$((i + 1))
+    if [ $(((i - 232) % 8)) -eq 0 ] && [ "$i" -lt 256 ]; then
+        printf '\n  '
+    fi
+done
+printf '\n'
+
+printf '\nTerminal default colors\n'
+printf '  \033[39;49mDefault foreground on default background%s  SGR 39 / 49\n' "$reset"
+
+printf '\nTerminal UI colors\n'
+printf '  Selection: select the text inside [this selection sample].\n'
+if [ -t 0 ] && [ -t 1 ]; then
+    printf '  Cursor: it should cover the X and recolor it; press Enter to finish: [X]'
+    printf '\033[2D'
+    IFS= read -r _
+    printf '\n'
+else
+    printf '  Cursor: interactive test skipped because input or output is not a terminal.\n'
+fi
