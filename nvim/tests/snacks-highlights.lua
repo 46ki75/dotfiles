@@ -14,6 +14,7 @@ local function check_highlights(context)
     SnacksPickerPathIgnored = "Conceal",
   }) do
     assert(highlight(group).fg == highlight(target).fg, context .. ": " .. group .. " must use " .. target)
+    assert(highlight(group).bg == nil, context .. ": " .. group .. " must preserve picker backgrounds")
     assert(highlight(group).fg ~= highlight("NonText").fg, context .. ": " .. group .. " must not use NonText")
   end
 end

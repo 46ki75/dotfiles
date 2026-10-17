@@ -3,9 +3,14 @@ return {
     "folke/snacks.nvim",
     init = function()
       local function set_path_highlights()
-        -- Snacks defaults both to NonText, which is too dim for filenames in the Ikuma theme.
-        vim.api.nvim_set_hl(0, "SnacksPickerPathHidden", { link = "Normal" })
-        vim.api.nvim_set_hl(0, "SnacksPickerPathIgnored", { link = "Conceal" })
+        -- NonText is too dim for filenames; copy only foregrounds to preserve picker backgrounds.
+        for group, source in pairs({
+          SnacksPickerPathHidden = "Normal",
+          SnacksPickerPathIgnored = "Conceal",
+        }) do
+          local fg = vim.api.nvim_get_hl(0, { name = source, link = false }).fg
+          vim.api.nvim_set_hl(0, group, { fg = fg })
+        end
       end
       vim.api.nvim_create_autocmd("ColorScheme", {
         group = vim.api.nvim_create_augroup("snacks_path_highlights", { clear = true }),
