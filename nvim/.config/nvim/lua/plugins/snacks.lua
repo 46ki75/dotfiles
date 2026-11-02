@@ -24,9 +24,10 @@ return {
       },
       picker = {
         sources = {
-          explorer = { hidden = true, ignored = true },
-          files = { hidden = true, ignored = false },
-          grep = { hidden = true, ignored = false },
+          -- Stow deploys individual files as symlinks; rg otherwise skips them.
+          explorer = { hidden = true, ignored = true, follow = true },
+          files = { hidden = true, ignored = false, follow = true },
+          grep = { hidden = true, ignored = false, follow = true },
         },
       },
     },
