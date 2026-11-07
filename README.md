@@ -97,3 +97,15 @@ termux-reload-settings
 If `~/.termux/colors.properties` already exists as a regular file or an unrelated symlink, back it up and move it out of the way before stowing. The package leaves `~/.termux/font.ttf` and other Termux settings untouched.
 
 Termux loads the palette from [`~/.termux/colors.properties`](https://wiki.termux.com/wiki/Termux:Styling). After editing the symlinked file, run `termux-reload-settings` again. Indexed colors 16–255 and explicit true-color output are unchanged; application themes may need separate configuration.
+
+### 8. Herdr desktop themes
+
+`herdr-app/.config/herdr-app/themes/` contains `ikuma-dark.json` and `ikuma-light.json`, standalone snapshots of the Ghostty **Ikuma Dark** and **Ikuma Light** themes in this repository. Their background, foreground, cursor, selection background, and 16 ANSI colors match the Ghostty variants. The UI accent, including the focused pane outline in the main layout, uses each variant's primary color (the Ghostty cursor color). Herdr derives the remaining app UI colors from the palette; its documented theme format has no separate fields for Ghostty's cursor text and selection foreground colors.
+
+From the repository root, deploy only the desktop themes without pulling Git changes:
+
+```bash
+stow --no-folding herdr-app
+```
+
+Select `ikuma-dark` or `ikuma-light` in Herdr's Settings theme picker. If a destination theme file already exists as a regular file or an unrelated symlink, back it up and move it out of the way before stowing. This package leaves Herdr's settings, layouts, mods, and runtime data untouched. The `herdr/` package configures the separate Herdr TUI.
