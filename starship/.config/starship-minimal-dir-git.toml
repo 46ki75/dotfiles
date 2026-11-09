@@ -1,0 +1,21 @@
+# https://starship.rs/config/#prompt
+
+format = "$directory$git_branch$character"
+
+[directory]
+style = "bold dimmed"
+format = "[ $path]($style)[$read_only]($read_only_style) "
+truncation_length = 0
+truncate_to_repo = true
+
+repo_root_style = "bold blue"
+repo_root_format = "[ $repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
+
+[character]
+success_symbol = "[❯](bold dimmed yellow)"
+error_symbol = "[❯](bold red)"
+
+[git_branch]
+format = "[$symbol$branch(:$remote_branch)]($style) "
+style = "bold green"
+symbol = " "

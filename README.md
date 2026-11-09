@@ -22,7 +22,10 @@ Each top-level directory is a "package". Its contents are mirrored into `$HOME` 
 dotfiles/
 ├── starship/
 │   └── .config/
-│       └── starship.toml      # → ~/.config/starship.toml
+│       ├── starship.toml      # → ~/.config/starship.toml
+│       ├── starship-minimal.toml
+│       ├── starship-minimal-dir.toml
+│       └── starship-minimal-dir-git.toml
 └── ...
 ```
 
@@ -37,15 +40,36 @@ cd ~/dotfiles
 
 The script pulls the latest repository changes and applies all packages with `stow --no-folding`. Linking individual files instead of entire directories keeps newly generated application files out of this repository.
 
-### 4. Claude Code status line
+### 4. Starship prompts and Claude Code
 
-The `claude-code` profile in `starship.toml` renders Claude Code's status line, but Claude Code won't use it until it's told to. After running `./deploy.sh`, merge the following into `~/.claude/settings.json` while preserving any existing settings:
+#### Shell prompts
+
+`~/.config/starship.toml` keeps the full default prompt. Three standalone configurations provide smaller prompts with the same module styling:
+
+| Configuration                             | Prompt modules                   |
+| ----------------------------------------- | -------------------------------- |
+| `~/.config/starship-minimal.toml`         | Character                        |
+| `~/.config/starship-minimal-dir.toml`     | Directory, character             |
+| `~/.config/starship-minimal-dir-git.toml` | Directory, Git branch, character |
+
+Run `stow --no-folding starship` from the repository root to link these files without pulling Git changes. Select a configuration using Starship's documented [`STARSHIP_CONFIG`](https://starship.rs/config/#config-file-location) environment variable. For example, in `~/.zshrc`:
+
+```zsh
+export STARSHIP_CONFIG="$HOME/.config/starship-minimal-dir-git.toml"
+eval "$(starship init zsh)"
+```
+
+Changing the exported variable also switches configurations in an existing shell; no reinitialization is needed. Run `unset STARSHIP_CONFIG` to restore the default configuration. Each standalone file owns its module settings; edits to `starship.toml` do not update the other files.
+
+#### Claude Code status line
+
+The `claude-code` profile in `starship.toml` renders Claude Code's status line, but Claude Code won't use it until it's told to. After deploying, merge the following into `~/.claude/settings.json` while preserving any existing settings. The command pins the status line to `starship.toml` so it is unaffected by your shell's `STARSHIP_CONFIG` selection:
 
 ```json
 {
   "statusLine": {
     "type": "command",
-    "command": "starship statusline claude-code"
+    "command": "STARSHIP_CONFIG=\"$HOME/.config/starship.toml\" starship statusline claude-code"
   }
 }
 ```
